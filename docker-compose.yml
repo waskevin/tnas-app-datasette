@@ -1,0 +1,6 @@
+services:
+  datasette:
+    image: datasetteproject/datasette:0.57a1
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
