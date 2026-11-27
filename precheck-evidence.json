@@ -1,0 +1,14 @@
+{
+  "number": 125,
+  "name": "Datasette",
+  "dual_arch": true,
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "evidence": "runtime_probe+screenshot",
+  "precheck_status": "screenshot_captured",
+  "screenshot_path": "precheck-screenshots/datasette/x86_64/run.png",
+  "runtime_note": "x86_64 runtime probe returned HTTP 200 with Datasette in-memory database; Datasette index page screenshot captured",
+  "submission_status": "not_submitted"
+}
